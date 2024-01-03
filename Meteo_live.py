@@ -98,7 +98,7 @@ def fetch_weather_data():
         icon_url = f'http://openweathermap.org/img/wn/{weather_icon}@2x.png'
         # Scarica e visualizza l'icona meteo direttamente 
         icon_data = requests.get(icon_url).content
-        # Converte i dati in PhotoImage e ridimensiona 
+        # Converte in PhotoImage e ridimensiona 
         global icon_image
         icon_image = ImageTk.PhotoImage(Image.open(BytesIO(icon_data)).resize((40, 40)))
         temperature = round(data['main']['temp'], 1)
