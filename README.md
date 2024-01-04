@@ -131,5 +131,6 @@ Python, attraverso il comando cursor.execute(), fornisce i valori come parametri
 
 Questo comando SQL viene eseguito per eliminare dalla tabella 'weather_data' la riga in cui il valore della colonna 'ID' corrisponde a selected_id.
 
+Utilizzando "conn.commit()" e "conn.close()" della libreria SQLite di Python si confermano e applicano le modifiche effettuate al database e si chiude la connessione ad esso.
 
 
