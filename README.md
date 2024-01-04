@@ -95,6 +95,8 @@ Dopo
 
 ![Finestra dell'applicazione ridimensionata alla dimensione originaria](https://github.com/DamianSanremo/Media/blob/main/screenshot_particular_indietro2.png) 
 
+---
+
 ### Dettagli sul codice: i comandi SQL
 
 L'applicazione, come menzionato in precedenza, utilizza una libreria SQLite, in quanto gia' presente in Python (e quindi non richiede l'installazione di ulteriori librerie) 
@@ -102,15 +104,32 @@ al fine di creare un file "weather_data.db" e una table "weather_data" al suo in
 
 #### Creazione della tabella e ordine delle righe in modo decrescente in base all'ID
 
+![Comandi SQL creazione tabellla e ordine secondo ID decrescente](https://github.com/DamianSanremo/Media/blob/main/screenshot_sql1.png)
 
+Viene eseguito un primo comando SQL per creare la tabella 'weather_data' nel database SQLite (se non presente).
 
-Viene eseguito un primo comando SQL per creare la tabella 'weather_data' nel database SQLite.
 La tabella contiene le seguenti colonne: 'ID', 'date_of_today', 'city', 'weather', 'temperature', 'temp_min', 'temp_max', 'humidity', 'wind_speed', 'direction_of_wind'. 
+
 L'ID è una chiave primaria che si auto-incrementa.
 
-Il secondo comando SQL esegue una query di selezione (SELECT) per recuperare tutte le colonne (*) dalla tabella 'weather_data'. La clausola ORDER BY ID DESC ordina i risultati in modo decrescente in base alla colonna 'ID'. I risultati vengono quindi recuperati utilizzando fetchall() e memorizzati nella variabile all_rows.
+Il secondo comando SQL esegue una query di selezione (SELECT) per recuperare tutte le colonne (*) dalla tabella 'weather_data'. 
+"ORDER BY ID DESC" ordina i record in modo decrescente in base alla colonna 'ID'. 
 
+I risultati della query, che includono tutti i dati delle colonne per ciascuna riga, vengono quindi recuperati utilizzando cursor.fetchall() e memorizzati nella variabile all_rows.
 
+#### Inserimento dei dati nella tabella del database
+
+![Comando SQL per inserimento dati](https://github.com/DamianSanremo/Media/blob/main/screenshot_sql2.png) 
+
+Questo comando SQL viene utilizzato per inserire nuovi dati nella tabella 'weather_data'.
+
+Python, attraverso il comando cursor.execute(), fornisce i valori come parametri al comando SQL per eseguire l'inserimento dei dati nella tabella.
+
+#### Cancellazione della riga (o record) della tabella del database
+
+![Comando SQL per cancellare una riga della tabella](https://github.com/DamianSanremo/Media/blob/main/screenshot_sql3.png)
+
+Questo comando SQL viene eseguito per eliminare dalla tabella 'weather_data' la riga in cui il valore della colonna 'ID' corrisponde a selected_id.
 
 
 
