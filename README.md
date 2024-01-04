@@ -137,6 +137,8 @@ Questo comando SQL viene eseguito per eliminare dalla tabella 'weather_data' la 
 
 Utilizzando "conn.commit()" e "conn.close()" della libreria SQLite di Python si confermano e applicano le modifiche effettuate al database e si chiude la connessione ad esso.
 
+---
+
 ### Note aggiuntive e conclusive sull'applicazione
 
 Il programma si basa sulle seguenti librerie: 
