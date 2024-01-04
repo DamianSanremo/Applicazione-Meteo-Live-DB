@@ -1,11 +1,15 @@
 # Applicazione MeteoLive DB
 ## Esame di Basi di Dati 1 
 
-##### Codice esame: 27667 
+#### Codice esame: 27667 
 
-##### Matricola studente: 2941875
+#### Matricola studente: 2941875
 
 Progetto realizzato in Python
+
+##### ---> [CLICCA QUI](https://github.com/DamianSanremo/Applicazione-Meteo-Live-DB/blob/main/Applicazione%20MeteoLive%20DB.zip) <--- PER SCARICARE il file .zip del progetto.
+
+##### Versione alternativa: ---> [CLICCA QUI]() <--- Se vuoi scaricare la versione del progetto con gia' all'interno il file 'weather_data.db'  
 
 ---
 
@@ -21,7 +25,7 @@ La ricerca del meteo avviene inserendo il nome della citta' cliccando sul riquad
 
 ![esempio ricerca meteo](https://github.com/DamianSanremo/Media/blob/main/Screenshot_particular_searchbox.png)
 
-Una volta inserito il nome della città che si vuole cercare per la ricerca del meteo, basta cliccare sul pulsante con la lente d'ingrandimento.
+Una volta inserito il nome della città che si vuole cercare per la ricerca del meteo, basta cliccare sul pulsante con la lente d'ingrandimento, come indicato dalla freccia rossa.
 
 ![inserisci nome citta' e clicca sul pulsante](https://github.com/DamianSanremo/Media/blob/main/Screenshot_particular_searchbox2.png) 
 
@@ -46,7 +50,7 @@ Cliccando sull'icona, la finestra dell'applicazione si ingrandira'.
 
 L'applicazione permettera' di interagire con lo storico meteo, mostrandolo sotto forma di tabella in ordine decrescente per ID.
 
-la tabella ha rispettivamente le colonne: ID, data, citta', descrizione meteo, temperatura, minima, massima, umidita', vento, direzione vento. 
+La tabella visualizza rispettivamente le colonne: ID, data, citta', descrizione meteo, temperatura, minima, massima, umidita', vento, direzione vento. 
 
 ![Deattaglio Tabella del Database weather_data.db](https://github.com/DamianSanremo/Media/blob/main/Screenshot_expanded_1.png)
 
@@ -133,4 +137,25 @@ Questo comando SQL viene eseguito per eliminare dalla tabella 'weather_data' la 
 
 Utilizzando "conn.commit()" e "conn.close()" della libreria SQLite di Python si confermano e applicano le modifiche effettuate al database e si chiude la connessione ad esso.
 
+### Note aggiuntive e conclusive sull'applicazione
 
+Il programma si basa sulle seguenti librerie: 
+
+![Librerie utilizzate dall'applicazione](https://github.com/DamianSanremo/Media/blob/main/screenshot_libraries.png)
+
+Per la libreria PIL (Pillow) non presente nell'installazione di Python, puo' essere installata digitando:
+
+Linux / MacOS
+```bash
+pip --version
+pip install Pillow
+
+```
+oppure su Windows nel prompt dei comandi o nel Powershell
+
+```bash
+python -m pip --version
+python -m pip install Pillow
+```
+
+N.B: In questo modo verifico, per precauzione, anche se e' installata la libreria PIP e a quale versione.
