@@ -1,9 +1,11 @@
 # Applicazione MeteoLive DB
-### Progetto per Esame di Basi di Dati 1 realizzato in Python
+### Esame di Basi di Dati 1 
 
 Codice esame: 27667 
 
 Matricola studente: 2941875
+
+Progetto realizzato in Python
 
 ---
 ## Alcuni screenshots dell'applicazione
