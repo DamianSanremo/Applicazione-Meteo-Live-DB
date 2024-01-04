@@ -40,11 +40,13 @@ Alcuni esempi delle ricerche effettuate:
 
 ### Interazione con il Database 
 
-Cliccando sull'icona 
+Cliccando sull'icona, la finestra dell'applicazione si ingrandira'. 
 
 ![pulsante database](https://github.com/DamianSanremo/Media/blob/main/Screenshot_particular.png) 
 
 L'applicazione permettera' di interagire con lo storico meteo, mostrandolo sotto forma di tabella in ordine decrescente per ID.
+
+la tabella ha rispettivamente le colonne: ID, data, citta', descrizione meteo, temperatura, minima, massima, umidita', vento, direzione vento. 
 
 ![Deattaglio Tabella del Database weather_data.db](https://github.com/DamianSanremo/Media/blob/main/Screenshot_expanded_1.png)
 
@@ -61,7 +63,7 @@ Ecco alcuni esempi:
 
 Se il nome della citta' e' stato inserito in modo errato, l'applicazione mostra un pop-up segnalando un errore.
 
-N.B: L'applicazione impedisce che l'errore venga trascritto e memorizzato nel database
+N.B: L'applicazione impedisce che l'errore venga trascritto e memorizzato nel database.
 
 ![Errore nella ricerca](https://github.com/DamianSanremo/Media/blob/main/Screenshot_particular_error.png)
 
@@ -69,4 +71,46 @@ N.B: L'applicazione impedisce che l'errore venga trascritto e memorizzato nel da
 
 L'applicazione permette di interagire con la tabella del database, permettendo di eliminare una o piu' righe.
 
- 
+Selezionando una riga della tabella e cliccando sul pulsante indicato dalla freccia rossa (seleziono la riga con ID 80).
+
+![Seleziono la riga della tabella da eliminare](https://github.com/DamianSanremo/Media/blob/main/screenshot_particular_delete.png)
+
+L'applicazione elimina la riga della tabella corrispondente all'ID 80, aggiorna la tabella e mostra che la riga con ID 80 e' stata eliminata dalla tabella del database.
+
+![La riga della tabella e' stata eliminata](https://github.com/DamianSanremo/Media/blob/main/screenshot_particular_delete_id80.png)
+
+La stessa operazione e' possibile farla aiutandosi con una keyword (nell'esempio la keyword Roma).
+
+![Elimino la riga della tabella del database aiutandomi con la keyword](https://github.com/DamianSanremo/Media/blob/main/screenshot_particular_delete2.png)
+
+### Nascondere la tabella del database e ridimensionamento
+
+L'applicazione tramite il pulsante indietro indicato dalla freccia rossa, permette di nascondere la tabella del database, ridimensionando la finestra alla dimensione originaria.
+
+Prima
+
+![Pulsante indietro nasconde la tabella del database](https://github.com/DamianSanremo/Media/blob/main/screenshot_particular_indietro.png)
+
+Dopo 
+
+![Finestra dell'applicazione ridimensionata alla dimensione originaria](https://github.com/DamianSanremo/Media/blob/main/screenshot_particular_indietro2.png) 
+
+### Dettagli sul codice: i comandi SQL
+
+L'applicazione, come menzionato in precedenza, utilizza una libreria SQLite, in quanto gia' presente in Python (e quindi non richiede l'installazione di ulteriori librerie) 
+al fine di creare un file "weather_data.db" e una table "weather_data" al suo interno.
+
+#### Creazione della tabella e ordine delle righe in modo decrescente in base all'ID
+
+
+
+Viene eseguito un primo comando SQL per creare la tabella 'weather_data' nel database SQLite.
+La tabella contiene le seguenti colonne: 'ID', 'date_of_today', 'city', 'weather', 'temperature', 'temp_min', 'temp_max', 'humidity', 'wind_speed', 'direction_of_wind'. 
+L'ID è una chiave primaria che si auto-incrementa.
+
+Il secondo comando SQL esegue una query di selezione (SELECT) per recuperare tutte le colonne (*) dalla tabella 'weather_data'. La clausola ORDER BY ID DESC ordina i risultati in modo decrescente in base alla colonna 'ID'. I risultati vengono quindi recuperati utilizzando fetchall() e memorizzati nella variabile all_rows.
+
+
+
+
+
