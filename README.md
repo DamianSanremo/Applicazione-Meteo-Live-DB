@@ -9,7 +9,7 @@ Progetto realizzato in Python
 
 ##### ---> [CLICCA QUI](https://github.com/DamianSanremo/Applicazione-Meteo-Live-DB/blob/main/Applicazione%20MeteoLive%20DB.zip) <--- PER SCARICARE il file .zip del progetto.
 
-##### Versione alternativa: ---> [CLICCA QUI]() <--- Se vuoi scaricare la versione del progetto con gia' all'interno il file 'weather_data.db'  
+##### Versione alternativa: ---> [CLICCA QUI]() <--- Se scaricare la versione del progetto con gia' all'interno il file 'weather_data.db'  
 
 ---
 
