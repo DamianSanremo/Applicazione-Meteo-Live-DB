@@ -1,16 +1,17 @@
 # Applicazione MeteoLive DB
-### Esame di Basi di Dati 1 
+## Esame di Basi di Dati 1 
 
-Codice esame: 27667 
+##### Codice esame: 27667 
 
-Matricola studente: 2941875
+##### Matricola studente: 2941875
 
 Progetto realizzato in Python
 
 ---
-## Alcuni screenshots dell'applicazione
 
-L'applicazione all'avvio.
+### Avvio dell' applicazione
+
+Immagine dell'applicazione all'avvio.
 
 ![Come l'applicazione si presenta all'avvio](https://github.com/DamianSanremo/Media/blob/main/Screenshot_avvio.png)
 
@@ -30,20 +31,20 @@ Aggiornera' rispetto ai dati di default: la data (di oggi), il nome della citta'
 
 Inoltre l'applicazione aggiornera' l'immagine di default (Porto di Genova) sostituendola con l'immagine fornita dall'API di Unsplash. 
 
-Qui alcuni esempi delle ricerche effettuate
+Alcuni esempi delle ricerche effettuate:
 
 ![Parigi](https://github.com/DamianSanremo/Media/blob/main/Screenshot_4.png)
 ![Varsavia](https://github.com/DamianSanremo/Media/blob/main/Screenshot_5.png)
 ![Roma](https://github.com/DamianSanremo/Media/blob/main/Screenshot_7.png)
 ![Washington](https://github.com/DamianSanremo/Media/blob/main/Screenshot_8.png)
 
-#### Interazione con il Database 
+### Interazione con il Database 
 
 Cliccando sull'icona 
 
 ![pulsante database](https://github.com/DamianSanremo/Media/blob/main/Screenshot_particular.png) 
 
-L'applicazione permette di interagire con lo storico meteo, mostrandolo sotto forma di tabella in ordine decrescente per ID.
+L'applicazione permettera' di interagire con lo storico meteo, mostrandolo sotto forma di tabella in ordine decrescente per ID.
 
 ![Deattaglio Tabella del Database weather_data.db](https://github.com/DamianSanremo/Media/blob/main/Screenshot_expanded_1.png)
 
@@ -56,10 +57,16 @@ Ecco alcuni esempi:
 ![keyword cielo coperto](https://github.com/DamianSanremo/Media/blob/main/Screenshot_Keyword_cielo_coperto.png)
 ![keyword nord-est](https://github.com/DamianSanremo/Media/blob/main/Screenshot_Keyword_nord-est.png)
  
-#### Gestione degli errori
+### Gestione degli errori
 
-Se sbagliamo il nome della citta', l'applicazione mostra un pop-up segnalandoci un errore.
+Se il nome della citta' e' stato inserito in modo errato, l'applicazione mostra un pop-up segnalando un errore.
 
 N.B: L'applicazione impedisce che l'errore venga trascritto e memorizzato nel database
 
 ![Errore nella ricerca](https://github.com/DamianSanremo/Media/blob/main/Screenshot_particular_error.png)
+
+### Eliminare una riga (o record) presente nella tabella del database
+
+L'applicazione permette di interagire con la tabella del database, permettendo di eliminare una o piu' righe.
+
+ 
