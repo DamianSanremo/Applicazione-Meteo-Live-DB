@@ -68,7 +68,7 @@ Una volta inserito il nome della città che si vuole cercare per la ricerca del 
 
 ![inserisci nome citta' e clicca sul pulsante](https://github.com/DamianSanremo/Media/blob/main/Screenshot_particular_searchbox2.png) 
 
-L'applicazione mostrera' i dati metereologici in tempo reale forniti dall'API di OpenWeather in formato JSON e li elaborera' (tramite libreria requests) memorizzandoli in un database locale.
+L'applicazione acquisirà i dati meteorologici in tempo reale forniti dall'API di OpenWeather in formato JSON. Successivamente, tramite la libreria requests, li elaborerà selezionando quelli richiesti e memorizzandoli in un database locale prima di mostrarli.
 
 Aggiornera' rispetto ai dati di default: la data (di oggi), il nome della citta' cercata, temperatura, icona e descrizione meteo, massima e minina, umidita', vento e direzione.
 
