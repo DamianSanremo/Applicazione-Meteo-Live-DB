@@ -15,6 +15,11 @@ _Progetto realizzato in Python_
 ---> [CLICCA QUI](https://github.com/DamianSanremo/Media/blob/main/Applicazione%20MeteoLive%20DB%20con%20database.zip) <--- Per scaricare la versione del progetto con gia' all'interno il file 'weather_data.db'  
 
 ---
+### Scopo dell'applicazione MeteoLive DB
+
+Il programma è un'applicazione con interfaccia grafica scritta in Python che consente all'utente di gestire e visualizzare in modo intuitivo i dati meteorologici storici memorizzati in un database. L'utente può aggiornare il database con nuovi dati, esplorare le informazioni attraverso una visualizzazione tabellare, filtrare i dati esistenti per parola chiave e cancellare record.
+
+---
 
 ### Demo video dell'applicazione
 
@@ -171,9 +176,7 @@ Questo comando SQL viene eseguito per eliminare dalla tabella 'weather_data' la 
 
 Utilizzando "conn.commit()" e "conn.close()" della libreria SQLite di Python si confermano e applicano le modifiche effettuate al database e si chiude la connessione ad esso.
 
----
 
-### Note aggiuntive e conclusive
 
 
 
