@@ -25,6 +25,8 @@ Il programma è un'applicazione con interfaccia grafica scritta in Python che co
 
 https://github.com/DamianSanremo/Applicazione-Meteo-Live-DB/assets/123167768/aaaf48f7-4011-43b0-bc09-650b0feacc5f
 
+In caso di problemi di visualizzazione, qui il link di [youtube al video](https://www.youtube.com/watch?v=p_ISX5khlo4)
+
 ---
 
 ### Note particolari sull'applicazione
