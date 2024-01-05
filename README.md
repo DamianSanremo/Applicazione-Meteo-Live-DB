@@ -170,5 +170,8 @@ Utilizzando "conn.commit()" e "conn.close()" della libreria SQLite di Python si 
 
 ---
 
+### Note aggiuntive e conclusive
+
+
 
 
