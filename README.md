@@ -33,9 +33,9 @@ Il programma e' stato scritto in Python e utilizza le seguenti librerie:
 
 ![Librerie utilizzate dall'applicazione](https://github.com/DamianSanremo/Media/blob/main/screenshot_libraries.png)
 
-La libreria PIL (Pillow) non presente nell'installazione di Python, puo' essere installata digitando:
+La libreria PIL (Pillow) non presente nei file d'[installazione di Python](https://www.python.org/downloads/), puo' essere installata digitando:
 
-Linux / MacOS
+su Linux / MacOS
 ```bash
 pip --version
 pip install Pillow
