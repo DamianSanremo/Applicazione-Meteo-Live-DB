@@ -15,7 +15,7 @@ Progetto realizzato in Python
 
 ### Demo video dell'applicazione
 
-[Demo video dell'applicazione](https://github.com/DamianSanremo/Media/blob/main/Demo_App_video.mp4)
+<video src='https://github.com/DamianSanremo/Media/blob/main/Demo_App_video.mp4' width=180/>
 
 ---
 
