@@ -15,7 +15,8 @@ Progetto realizzato in Python
 
 ### Demo video dell'applicazione
 
-<video src='https://github.com/DamianSanremo/Media/blob/main/Demo_App_video.mp4' width=90/>
+https://github.com/DamianSanremo/Applicazione-Meteo-Live-DB/assets/123167768/aaaf48f7-4011-43b0-bc09-650b0feacc5f
+
 
 ---
 
