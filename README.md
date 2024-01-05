@@ -1,4 +1,4 @@
-# Applicazione MeteoLive DB
+# Progetto: "Applicazione MeteoLive DB"
 ### Esame di Basi di Dati 1 
 
 #### Codice esame: 27667 
@@ -7,9 +7,12 @@
 
 _Progetto realizzato in Python_
 
-##### ---> [CLICCA QUI](https://github.com/DamianSanremo/Media/blob/main/Applicazione%20MeteoLive%20DB.zip) <--- PER SCARICARE il file .zip del progetto.
+#### ---> [CLICCA QUI](https://github.com/DamianSanremo/Media/blob/main/Applicazione%20MeteoLive%20DB.zip) <--- PER SCARICARE il file .zip del progetto.
 
-##### Versione alternativa: ---> [CLICCA QUI](https://github.com/DamianSanremo/Media/blob/main/Applicazione%20MeteoLive%20DB%20con%20database.zip) <--- Per scaricare la versione del progetto con gia' all'interno il file 'weather_data.db'  
+
+##### Versione alternativa: 
+
+---> [CLICCA QUI](https://github.com/DamianSanremo/Media/blob/main/Applicazione%20MeteoLive%20DB%20con%20database.zip) <--- Per scaricare la versione del progetto con gia' all'interno il file 'weather_data.db'  
 
 ---
 
