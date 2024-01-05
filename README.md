@@ -1,5 +1,5 @@
 # Applicazione MeteoLive DB
-## Esame di Basi di Dati 1 
+### Esame di Basi di Dati 1 
 
 #### Codice esame: 27667 
 
@@ -17,6 +17,30 @@ _Progetto realizzato in Python_
 
 https://github.com/DamianSanremo/Applicazione-Meteo-Live-DB/assets/123167768/aaaf48f7-4011-43b0-bc09-650b0feacc5f
 
+---
+
+### Note particolari sull'applicazione
+
+Il programma e' stato scritto in Python e utilizza le seguenti librerie: 
+
+![Librerie utilizzate dall'applicazione](https://github.com/DamianSanremo/Media/blob/main/screenshot_libraries.png)
+
+La libreria PIL (Pillow) non presente nell'installazione di Python, puo' essere installata digitando:
+
+Linux / MacOS
+```bash
+pip --version
+pip install Pillow
+
+```
+oppure su Windows nel prompt dei comandi o nel Powershell
+
+```bash
+python -m pip --version
+python -m pip install Pillow
+```
+
+N.B: _In questo modo verifico, per precauzione, anche se e' installata la libreria PIP e a quale versione._
 
 ---
 
@@ -146,25 +170,5 @@ Utilizzando "conn.commit()" e "conn.close()" della libreria SQLite di Python si 
 
 ---
 
-### Note aggiuntive e conclusive sull'applicazione
 
-Il programma si basa sulle seguenti librerie: 
 
-![Librerie utilizzate dall'applicazione](https://github.com/DamianSanremo/Media/blob/main/screenshot_libraries.png)
-
-Per la libreria PIL (Pillow) non presente nell'installazione di Python, puo' essere installata digitando:
-
-Linux / MacOS
-```bash
-pip --version
-pip install Pillow
-
-```
-oppure su Windows nel prompt dei comandi o nel Powershell
-
-```bash
-python -m pip --version
-python -m pip install Pillow
-```
-
-N.B: In questo modo verifico, per precauzione, anche se e' installata la libreria PIP e a quale versione.
