@@ -1,7 +1,7 @@
 ######################################
 #   APPLICAZIONE METEOLIVE DB        #
 #                                    #   
-# Studente:     Damian Dutka         #
+# Studente:     ************         #
 # Matricola     2941875              #
 # Esame:        BASI DI DATI 1       #
 # Codice esame: 27667                #
