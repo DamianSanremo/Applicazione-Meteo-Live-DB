@@ -17,7 +17,7 @@ _Progetto realizzato in Python_
 ---
 ### Scopo dell'applicazione MeteoLive DB
 
-Il programma è un'applicazione con interfaccia grafica scritta in Python che consente all'utente di gestire e visualizzare in modo intuitivo i dati meteorologici storici memorizzati in un database. L'utente può aggiornare il database con nuovi dati, esplorare le informazioni attraverso una visualizzazione tabellare, filtrare i dati esistenti per parola chiave e cancellare record.
+Il programma è un'applicazione con interfaccia grafica scritta in Python che consente all'utente di gestire e visualizzare in modo intuitivo i dati meteorologici storici memorizzati in un database. L'utente può aggiornare il database con nuovi dati, esplorare le informazioni attraverso una visualizzazione tabellare, filtrare per keyword i dati esistenti e cancellare record.
 
 ---
 
