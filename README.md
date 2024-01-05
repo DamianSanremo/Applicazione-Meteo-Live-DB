@@ -5,11 +5,11 @@
 
 #### Matricola studente: 2941875
 
-Progetto realizzato in Python
+_Progetto realizzato in Python_
 
 ##### ---> [CLICCA QUI](https://github.com/DamianSanremo/Applicazione-Meteo-Live-DB/blob/main/Applicazione%20MeteoLive%20DB.zip) <--- PER SCARICARE il file .zip del progetto.
 
-##### Versione alternativa: ---> [CLICCA QUI]() <--- Se scaricare la versione del progetto con gia' all'interno il file 'weather_data.db'  
+##### Versione alternativa: ---> [CLICCA QUI]() <--- Per scaricare la versione del progetto con gia' all'interno il file 'weather_data.db'  
 
 ---
 
